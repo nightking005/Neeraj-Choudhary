@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Response Recorded</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+
+}
+
+.nav-list {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 6px 25px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: black;
+
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 35%;
+    /* border: 2px solid blue;
+    border-radius: 30px; */
+
+    /* filter: invert(1); */
+
+}
+
+.background {
+    background: rgba(0, 0, 0, .6) url('/static/img/NY.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+        .submit{
+            width: 80%;
+            height: 20%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: red;
+            color: black;
+            font-weight: bold;
+            margin:30vh auto;
+            font-size: 2rem;
+            border: 2px solid black;
+        }
+       
+    </style>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <li class="logo"><img src="/static/img/passport-modified.png" alt="logo"></li>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/static/html/resume.html">Resume</a></li>
+            <li><a href="#BLog">Blog</a></li>
+            <li><a href="/static/html/contacts.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="submit">
+        <p>Your message has been submitted succefully. Thank you!!!</p>
+    </div>
+</body>
+<script src="/static/js/resp.js"></script>
+</html>

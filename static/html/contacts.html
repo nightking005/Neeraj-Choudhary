@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/contacts.css">
+    <link rel="stylesheet" href="/static/css/responsive.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <li class="logo"><img src="/static/img/passport-modified.png" alt="logo"></li>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="/static/html/resume.html">Resume</a></li>
+            <li><a href="#BLog">Blog</a></li>
+            <li><a href="/static/html/contacts.html">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <h1>Contact me</h1>
+    <section class="contact">
+        <div class="address">
+            <h2 class="heading">Get in touch</h2>
+            <p>Contact Number: +91-8949264674</p>
+            <p>Email: neeraj1893choudhary@gmail.com</p>
+            <p>Adress: Ajmer, Rajasthan, India</p>
+        </div>
+        <div class="media">
+            <h2 class="heading">Social media</h2>
+            <div class="link">
+                <a href="https://www.linkedin.com/in/neeraj-choudhary-125b28199" target="_blank" rel="noreferrer noopener"><img
+                        src="/static/img/linekdin.png" alt="linekdin"></a>
+                <a href="https://github.com/nightking005" target="_blank" rel="noreferrer noopener"><img src="/static/img/github.png" alt="linekdin"></a>
+                <a href="https://www.instagram.com/_neer_jc_/" target="_blank" rel="noreferrer noopener"><img src="/static/img/instagram.png"
+                        alt="linekdin"></a>
+                <a href="https://www.facebook.com/profile.php?id=100010695061179" target="_blank" rel="noreferrer noopener"><img
+                        src="/static/img/facebook.png" alt="linekdin"></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h2 class="heading">Contact form</h2>
+            <form role="form" action="/contact" method="POST" class="myForm" id="myForm"  name="myForm"> 
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" class="myInput" placeholder="Enter your name">
+
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" class="myInput" placeholder="Enter your email">
+
+                    <label for="message"></label>
+                    <input type="text" id="message" name="message" class="myInput" placeholder="Enter your message">
+                
+                   <button class="btn" type="submit" >Send message</button>
+            </form>
+        </div>
+
+    </section>
+</body>
+
+<script src="/static/js/resp.js"></script>
+<script src="/static/js/contact.js"></script>
+</html>

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+
+}
+
+.nav-list {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 6px 25px;
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: black;
+
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 35%;
+    /* border: 2px solid blue;
+    border-radius: 30px; */
+
+    /* filter: invert(1); */
+
+}
+
+.background {
+    background: rgba(0, 0, 0, .6) url('/static/img/NY.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+.resume{
+    justify-content: center;
+    text-align: center;
+  
+    margin: 30px;
+    font-family: 'Tapestry', cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+   
+
+}
+.main1{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(217, 225, 231);
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.main2{
+    width: 30%;
+    height: 400px;
+    background-color: rgb(241 241 241);
+    display: flex;
+    flex-direction: column;
+   
+}
+.heading{
+   font-size: 1.5rem;
+   color: red;
+   padding:  20px;
+}
+.heading:hover{
+    color: blue
+}
+.box{
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.small{
+    font-size: 1.2rem;
+    padding: 5px 20px;
+}
+.content{
+    padding: 1px 20px;
+}
+#footer {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#footer p {
+    padding: 10px
+}
+@media only screen and (max-width:880px){
+    .container{
+        flex-direction: column;
+    }
+    .main1{
+        /* align-items: center; */
+        height: 500px;
+        width: 60%;
+    }
+    .main2{
+        /* align-items: center; */
+        height: 500px;
+        width: 60%;
+    }
+
+}
